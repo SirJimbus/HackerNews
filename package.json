@@ -1,0 +1,16 @@
+{
+  "name": "hackernews",
+  "version": "1.0.0",
+  "description": "Appena si arriva sulla pagina web viene subito visualizzato un elenco dettagliato (titolo, link e data) di 10 delle ultime news recuperate attraverso le API di hackernews.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
